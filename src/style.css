@@ -15,7 +15,7 @@
   --Prymary: #3081f1;
   --White: #fff;
   --gray: #bcf1f1d8;
-  --Black: #000
+  --Black: #000;
 }
 
 html {
@@ -52,11 +52,11 @@ h3 {
 
 .main-container {
   display: flex;
-    flex-direction: column;
-    justify-items: center;
-    width: 100%;
-    height: auto;
-    gap: 0.9rem;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
+  height: auto;
+  gap: 0.9rem;
 }
 
 .content {
@@ -71,7 +71,8 @@ h3 {
   background-color: var(--White);
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
 }
 
@@ -124,18 +125,17 @@ form {
   gap: 1rem;
 }
 
-#name-input, 
+#name-input,
 #score-input {
   width: 100%;
   height: 2.5rem;
   padding: 0.5rem;
   border: solid var(--Black);
-  
 }
 
-#add, 
+#add,
 #refresh {
- /*  width: 5rem;
+  /*  width: 5rem;
   height: 2rem;
   float: left;
   align-items: flex-start;
@@ -151,12 +151,10 @@ form {
   border-left: 2rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-
 }
 
 .left {
   margin: 0.5rem;
-  
 }
 
 .left-container {
@@ -169,17 +167,14 @@ form {
 .right {
   display: flex;
   flex-direction: column;
-    width: 100%;
-    flex: 50%;
-    height: auto;
-    padding: 1rem;
-    margin: 0;
+  width: 100%;
+  flex: 50%;
+  height: auto;
+  padding: 1rem;
+  margin: 0;
 }
 
-
-
 @media only screen and (min-width: 768px) {
-
   body {
     display: flex;
     justify-content: center;
@@ -207,14 +202,14 @@ form {
     display: flex;
     align-self: flex-start;
   }
-  
+
   .left {
     display: flex;
     flex-direction: column;
-      width: 70%;
-      height: auto;
+    width: 70%;
+    height: auto;
   }
-  
+
   .left-container {
     display: flex;
     flex-direction: row;
@@ -222,7 +217,6 @@ form {
     gap: 2rem;
     width: 100%;
     height: auto;
-    
   }
 
   .title-head-left {
@@ -239,11 +233,4 @@ form {
   .right {
     width: 100%;
   }
-  
-  
-  
-  
-  
-
 }
-
