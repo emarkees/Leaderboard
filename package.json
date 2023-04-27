@@ -1,7 +1,7 @@
 {
   "name": "leaderboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -44,5 +44,6 @@
     "express": "^4.18.2",
     "webpack-dev-middleware": "^6.0.2",
     "webpack": "^5.80.0"
-  }
+  },
+  "main": "server.js"
 }
