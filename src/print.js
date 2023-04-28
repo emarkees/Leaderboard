@@ -56,6 +56,6 @@ data.forEach((item) => {
   </ul>
   
   `;
-}); 
+});
 
 container.innerHTML = html;
