@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/*const container = document.querySelector('.content');
-=======
 const container = document.querySelector('.content');
->>>>>>> parent of 5e5caad (Clean up develop)
 
 const data = [
   {
@@ -60,12 +56,6 @@ data.forEach((item) => {
   </ul>
   
   `;
-<<<<<<< HEAD
 }); 
 
-container.innerHTML = html; */
-=======
-});
-
 container.innerHTML = html;
->>>>>>> parent of 5e5caad (Clean up develop)
