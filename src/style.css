@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background-color: var(--Secondary);
+  background-image: url(../assets/lmages/endless-constellation.svg);
   font-family: myFont, serif;
 }
 
@@ -34,11 +34,13 @@ h3 {
   padding: 0;
   margin-top: 0.5rem;
   gap: 2rem;
+  color: var(--Secondary);
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  background-image: url(../assets/lmages/hollowed-boxes.svg);
 }
 
 .title-header {
@@ -135,11 +137,6 @@ form {
 
 #add,
 #refresh {
-  /*  width: 5rem;
-  height: 2rem;
-  float: left;
-  align-items: flex-start;
-  position: relative; */
   width: 5rem;
   height: 2rem;
   align-self: flex-end;
