@@ -58,5 +58,22 @@ const postData = async(data) => {
 }
 postData();
 
+addBtn.addEventListener('click', async (event) => {
+  console.log('button has been clicked');
+  event.preventDefault();
+  const userName = form.elements.user.value;
+  const userScore = form.elements.score.value;
+  await postData({ 
+    user: userName, 
+    score: userScore 
+  });
+  form.elements.user.value = '';
+  form.elements.score.value = '';
+  await deployScore();
+});
 
-
+refreshItems.addEventListener('click', async (e) => {
+  e.preventDefault();
+  await deployScore(); // Wait for deployScore() to complete
+  console.log('Score items refreshed.');
+});
