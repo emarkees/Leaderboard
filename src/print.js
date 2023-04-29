@@ -1,4 +1,4 @@
-const container = document.querySelector('.content');
+/*const container = document.querySelector('.content');
 
 const data = [
   {
@@ -58,4 +58,4 @@ data.forEach((item) => {
   `;
 });
 
-container.innerHTML = html;
+container.innerHTML = html; */
