@@ -57,6 +57,7 @@ h3 {
   width: 100%;
   height: auto;
   gap: 0.9rem;
+  background-image: url(../assets/images/hollowed-boxes.svg);
 }
 
 .content {
