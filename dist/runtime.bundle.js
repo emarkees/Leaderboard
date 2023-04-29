@@ -110,6 +110,7 @@
 /******/ 		};
 /******/ 	})();
 /******/ 	
+<<<<<<< HEAD
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
 /******/ 		__webpack_require__.p = "/";
@@ -118,6 +119,11 @@
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
 /******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+=======
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		// no baseURI
+>>>>>>> parent of 5e5caad (Clean up develop)
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched

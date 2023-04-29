@@ -135,11 +135,6 @@ form {
 
 #add,
 #refresh {
-  /*  width: 5rem;
-  height: 2rem;
-  float: left;
-  align-items: flex-start;
-  position: relative; */
   width: 5rem;
   height: 2rem;
   align-self: flex-end;
