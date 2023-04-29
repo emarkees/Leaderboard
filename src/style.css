@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background-color: var(--Secondary);
+  background-image: url(../assets/images/endless-constellation.svg);
   font-family: myFont, serif;
 }
 
@@ -45,7 +45,7 @@ h3 {
   display: flex;
   align-self: center;
   margin: 0.5rem;
-  color: var(--Primary);
+  color: var(--Secondary);
   font-size: 1.5rem;
   width: fit-content;
 }
@@ -114,6 +114,7 @@ li:nth-child(-n + 3) {
   width: fit-content;
   font-size: 1.2rem;
   padding: 0.5rem;
+  color: var(--Secondary);
 }
 
 form {
@@ -196,11 +197,13 @@ form {
     width: 100%;
     height: auto;
     padding: 3rem;
+    background-image: url(../assets/images/hollowed-boxes.svg);
   }
 
   .title-header {
     display: flex;
     align-self: flex-start;
+    color: var(--gray);
   }
 
   .left {
