@@ -1,2 +1,2 @@
 import './style.css';
-import '../src/modules/Api.js';
+import './modules/Api.js';
