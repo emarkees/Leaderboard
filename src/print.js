@@ -1,4 +1,4 @@
-const container = document.querySelector('.content');
+/* const container = document.querySelector('.content');
 
 const data = [
   {
@@ -54,8 +54,8 @@ data.forEach((item) => {
     <li class="semi-column">: </li>
     <li class="board">${item.Score} </li>
   </ul>
-  
+
   `;
 });
 
-container.innerHTML = html;
+container.innerHTML = html; */

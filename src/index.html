@@ -16,18 +16,16 @@
           <h1 class="title-head-left">Recents Scores</h1>
           <button type="button" id="refresh">Refresh</button>
         </div>
-        <div class="content"></div>
+        <div class="content" id="container"></div>
       </section>
       <section class="right">
         <h3 class="title-head-left">Add your scores</h3>
-        <form class="">
-          <input type="text" id="name-input" placeholder="Add your name">
-          <input type="text" id="score-input" placeholder="Add your score">
-          
+        <form id="myForm">
+          <input type="text" id="name-input" placeholder="Add your name" required name="user">
+          <input type="text" id="score-input" placeholder="Add your score" required name="score">
           <button type="button" id="add">Add</button>
         </form>
       </section>
-      
     </main>
   </div>
 </body>
